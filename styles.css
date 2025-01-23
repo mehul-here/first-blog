@@ -1,0 +1,160 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #edf6f9;
+}
+
+* {
+    color: #000000;
+}
+
+h2 {
+    color: #9d0208;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+
+h1 {
+    color: #6a040f;
+    font-family: 'Signifier Light', sans-serif;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+    color: #370617;
+    font-family: Open Sans, sans-serif;
+}
+
+#main {
+    width: 60vw;
+    margin-left: 10vw;
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 26px;
+    color: #000000;
+    font-weight: 1000;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.date_and_time {
+    color: 495057;
+    font-family: 'IBM Plex Sans';
+    font-size: medium;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.main {
+    grid-column: 2;
+}
+
+.time_span {
+    grid-column: 1;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#why_anchor {
+    font-size: 15px;
+    color: #495057;
+    display: block;
+    text-align: center;
+}
+
+.github_anchor {
+    color: #e85d04;
+    margin-right: 4.5px;
+    margin-left: 4.5px;
+    text-decoration: none;
+}
+
+a.github_anchor:hover {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+}
+
+#good_luck {
+    color: #38b000;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.links {
+    color: #e85d04;
+    text-decoration: none;
+}
+
+a.links:hover {
+    text-decoration: underline;
+}
+
+.cookie {
+    display: grid;
+    grid-template-columns: 75% 8% auto;
+    grid-template-rows: auto 10px;
+}
+
+#cookie_text_container {
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 30px 40px 30px;
+}
+
+#cookie_text {
+    font-size: 17px;
+    grid-row: 2;
+    text-align: right;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    color: #0B132B; 
+}
+
+#cookie_img {
+    width: 80px;
+    align-self: center;
+    grid-row: 2;
+}
+
+#eat_it {
+    text-align: right;
+    grid-row: 3;
+    font-family: 'Chalkboard SE', cursive;
+    color: #EDF6F9;
+    align-items: start;
+    font-size: 15px;
+}
+
+/* * {
+    border: 1px solid red;
+    box-sizing: border-box;
+} */
+
+#cookie_img_container {
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 10px 80px 10px;
+}
+
